@@ -27,8 +27,8 @@ export default function Skills() {
     { name: "Javascript", Icon: FaJs },
     { name: "Typescript", Icon: SiTypescript },
     { name: "React Js", Icon: FaReact },
-    { name: "React Native", Icon: TbBrandReactNative },
     { name: "Next Js", Icon: SiNextdotjs },
+    { name: "React Native", Icon: TbBrandReactNative },
     { name: "Node Js", Icon: FaNodeJs },
     { name: "Express Js", Icon: SiExpress },
     { name: "Java", Icon: FaJava },
@@ -42,20 +42,24 @@ export default function Skills() {
   ];
 
   return (
-    <div className="grid grid-cols-3 sm:grid-cols-4 xl:grid-cols-5 py-2 xl:py-6 gap-4 sm:gap-8 xl:gap-16 justify-items-center">
-      {skills1.map((skill, skillI) => (
-        <div
-          key={skillI}
-          className="flex flex-col max-w-max items-center justify-between text-white gap-y-3"
-        >
-          <p className="text-white xl:text-2xl md:text-xl sm:text-lg text-base">
-            {skill.name}
-          </p>
-          <div>
-            <skill.Icon className="xl:text-5xl text-2xl" />
+    <section>
+      <p className="text-white text-base mb-2">I Am Skilled In :</p>
+
+      <div className="grid grid-cols-2 xs:grid-cols-3 xl:grid-cols-4 py-2 xs:gap-x-0 gap-3 xl:gap-8 justify-items-center">
+        {skills1.map((skill, skillI) => (
+          <div
+            key={skillI}
+            className="flex flex-col items-center justify-between text-white gap-y-3 md:gap-y-4"
+          >
+            <p className="text-white xl:text-xl md:text-xl text-[14px]">
+              {skill.name}
+            </p>
+            <div>
+              <skill.Icon className="xl:text-3xl text-xl" />
+            </div>
           </div>
-        </div>
-      ))}
-    </div>
+        ))}
+      </div>
+    </section>
   );
 }

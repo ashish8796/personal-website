@@ -12,24 +12,24 @@ const Aside = () => {
 
 
   return (
-    <aside className="sidebar">
+    <aside className="sidebar !px-4">
         <div className="sidebar-info">
           <figure className="avatar-box">
-            <img
+            {/* <img
               src={"/images/Profile-Pic-Square.png"}
               alt="Abhishek Singh Rathore"
               width="80"
-            />
+            /> */}
           </figure>
 
-          <div className="info-content">
-            <h1 className="name" title="Abhishek Singh Rathore">
-              Abhishek S. Rathore
+          <div className="info-content text-white">
+            <h1 className="name text-center text-wrap font-medium mb-2" title="Ashish Kumar Saini">
+              Ashish Kumar Saini
             </h1>
 
-            <p className="title">Software Engineer</p>
+            <p className="title text-lg font-normal w-max py-[3px] px-3 bg-onyx rounded-lg ">Fullstack Developer</p>
 
-          <a   href="/documents/Abhishek-Singh-Rathore-Resume.pdf" download={true}>
+          <a   href="/documents/Ashish_Kumar_Saini_Resume.pdf" download={true}>
             <button 
             className="resume-btn" 
             type="submit">
@@ -59,10 +59,10 @@ const Aside = () => {
               </div>
 
               <div className="contact-info">
-                <p className="contact-title">Email</p>
+                <p className="contact-title text-[14px]">Email</p>
 
-                <a href="mailto:abhishek.990914@gmail.com" className="contact-link">
-                  abhishek.990914@gmail.com
+                <a href="mailto:ashishsaini.ak@gmail.com" className="text-white text-[14px]">
+                  ashishsaini.ak@gmail.com
                 </a>
               </div>
             </li>
@@ -75,8 +75,8 @@ const Aside = () => {
               <div className="contact-info">
                 <p className="contact-title">Phone</p>
 
-                <a href="tel:+12133522795" className="contact-link">
-                  +91-9389732668
+                <a href="tel:+12133522795" className="text-white text-[14px]">
+                  +91-7500762013
                 </a>
               </div>
             </li>
@@ -90,7 +90,7 @@ const Aside = () => {
               <div className="contact-info">
                 <p className="contact-title">Birthday</p>
 
-                <time dateTime="1982-06-23">September 14, 1999</time>
+                <time dateTime="1982-06-23" className="text-white text-[14px]">October 16, 1996</time>
               </div>
             </li>
 
@@ -100,10 +100,10 @@ const Aside = () => {
                 <ion-icon name="location-outline"></ion-icon>
               </div>
 
-              <div className="contact-info">
+              <div className="contact-info text-white text-[14px]">
                 <p className="contact-title">Location</p>
 
-                <address>Bareilly, U.P. India</address>
+                <address className="not-italic">Sambhal, U.P. India</address>
               </div>
             </li>
           </ul>

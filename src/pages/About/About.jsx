@@ -67,8 +67,8 @@ const About = () => {
          Hey there !
       </p>
       <p>
-      I'm Abhishek Singh Rathore, a passionate Software Engineer from Bareilly, India, specializing in the MERN Stack and modern web technologies. Currently,
-      I'm making strides in web development at Mordor Intelligence, where I've been instrumental in projects like Lorien, Synapse, Synapse-CMS, and the Main Website.
+      I'm Ashish Kumar Saini, a passionate Fullstack Developer from Sambhal, India, specializing in the MERN Stack and modern web technologies. Currently,
+      I'm making strides in web development at Gutes Leben, where I've been instrumental in projects like App, CMS, and the backend.
       </p>
       <p>
       I thrive on transforming complex challenges into elegant solutions with intuitive and visually appealing designs.
@@ -82,7 +82,7 @@ const About = () => {
 
     </section>
 
-    <section className="gallery-section">
+    {/* <section className="gallery-section">
       <Gallery/>
 
       <div  className="gallery-text">
@@ -98,7 +98,7 @@ const About = () => {
       These moments of peace and reflection recharge my spirit, fueling my creativity and drive for my next tech project.
       </p>
       </div>
-    </section>
+    </section> */}
 
     <section className="service">
 
@@ -119,7 +119,7 @@ const About = () => {
 
     </section>
 
-    <section className="testimonials">
+    {/* <section className="testimonials">
 
       <h3 className="h3 testimonials-title">Testimonials</h3>
 
@@ -138,9 +138,9 @@ const About = () => {
 
       </ul>
 
-    </section>
+    </section> */}
 
-    <section className="clients">
+    {/* <section className="clients">
 
       <h3 className="h3 clients-title">Achievements</h3>
 
@@ -162,7 +162,7 @@ const About = () => {
 
       </ul>
 
-    </section>
+    </section> */}
 
   </article>
   )

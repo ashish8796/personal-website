@@ -15,21 +15,21 @@ const Aside = () => {
     <aside className="sidebar">
         <div className="sidebar-info">
           <figure className="avatar-box">
-            <img
+            {/* <img
               src={"/images/Profile-Pic-Square.png"}
               alt="Abhishek Singh Rathore"
               width="80"
-            />
+            /> */}
           </figure>
 
           <div className="info-content">
             <h1 className="name" title="Abhishek Singh Rathore">
-              Abhishek S. Rathore
+              Ashish Kumar Saini
             </h1>
 
-            <p className="title">Software Engineer</p>
+            <p className="title">Fullstack Developer</p>
 
-          <a   href="/documents/Abhishek-Singh-Rathore-Resume.pdf" download={true}>
+          <a   href="/documents/Ashish_Kumar_Saini_Resume.pdf" download={true}>
             <button 
             className="resume-btn" 
             type="submit">
@@ -61,8 +61,8 @@ const Aside = () => {
               <div className="contact-info">
                 <p className="contact-title">Email</p>
 
-                <a href="mailto:abhishek.990914@gmail.com" className="contact-link">
-                  abhishek.990914@gmail.com
+                <a href="mailto:ashishsaini.ak@gmail.com" className="contact-link">
+                  ashishsaini.ak@gmail.com
                 </a>
               </div>
             </li>
@@ -76,7 +76,7 @@ const Aside = () => {
                 <p className="contact-title">Phone</p>
 
                 <a href="tel:+12133522795" className="contact-link">
-                  +91-9389732668
+                  +91-7500762013
                 </a>
               </div>
             </li>
@@ -90,7 +90,7 @@ const Aside = () => {
               <div className="contact-info">
                 <p className="contact-title">Birthday</p>
 
-                <time dateTime="1982-06-23">September 14, 1999</time>
+                <time dateTime="1982-06-23">October 16, 1996</time>
               </div>
             </li>
 
@@ -103,7 +103,7 @@ const Aside = () => {
               <div className="contact-info">
                 <p className="contact-title">Location</p>
 
-                <address>Bareilly, U.P. India</address>
+                <address>Sambhal, U.P. India</address>
               </div>
             </li>
           </ul>

@@ -1,0 +1,42 @@
+[
+    {
+        "title":"React",
+        "value":80
+    },
+    {
+        "title":"Next",
+        "value":80
+    },
+    {
+        "title":"React Native",
+        "value":80
+    },
+    {
+        "title":"Core Web Vitals",
+        "value":75
+    },
+    {
+        "title":"Node",
+        "value":80
+    },
+    {
+        "title":"Express",
+        "value":90
+    },
+    {
+        "title":"EJS",
+        "value":80
+    },
+    {
+        "title":"Mongo DB",
+        "value":90
+    },
+    {
+        "title":"JavaScript",
+        "value":90
+    },
+    {
+        "title":"TypeScript",
+        "value":70
+    }
+]

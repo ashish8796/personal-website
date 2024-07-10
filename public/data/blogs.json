@@ -1,0 +1,17 @@
+[
+    {
+      "title": "Understanding Classes In JavaScript",
+      "slug": "understanding-classes-in-javascript",
+      "category": "JavaScript",
+      "date": "Apr 14, 2024",
+      "description": "JavaScript is quite flexible and has changed a lot over the years. The class syntax in ES6 is one of the..."
+    },
+    {
+      "title": "Understanding Hoisting And Scopes In JavaScript",
+      "slug": "understanding-hoisting-and-scopes-in-javascript",
+      "category": "JavaScript",
+      "date": "Jun 07, 2024",
+      "description": "You’ve probably heard about the term “hoisting” and probably (if you program in JS) know that it exists..."
+    }
+]
+  

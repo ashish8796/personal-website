@@ -1,0 +1,28 @@
+
+[
+    {
+      "name": "Mridul Parakh",
+      "profile":"https://www.linkedin.com/in/mridul-parakh-680021289/",
+      "designation":"Senior Software Engineer at DAZN",
+      "testimonial": "Abhishek did a great job of keeping up of software advancements, and consequently coming up with the fresh solutions. Even others sought his assistance because he possessed the most comprehensive and varied understanding of front-end development. He seems like a trustworthy and really competent worker to me."
+    },
+    {
+      "name": "Digvijay Singh Thakur",
+      "profile":"https://www.linkedin.com/in/digvijay-singh-thakur-b78967177/",
+      "designation":"Senior Software Engineer at Mordor Intelligence",
+      "testimonial": "I just wanted to share a quick note that I am glad I have worked with you.You are good problem solver who give deep thoughts.Your understanding toward the concepts are really appreciable and I would like to continue work with you in future."
+    },
+    {
+      "name": "Kushal Dave",
+      "profile":"https://www.linkedin.com/in/ikushaldave/",
+      "designation":"SDE 2 at BLKBOX.ai",
+      "testimonial": "I had the pleasure of working with Abhishek on several full-stack projects utilizing the MERN stack. His expertise in MongoDB, Express.js, React, and Node.js is truly exceptional. Abhishek consistently delivers high-quality, scalable code, and his problem-solving skills are top-notch. He is not only technically proficient but also a great team player, always willing to share knowledge and help others. Abhishek is an invaluable asset to any team, and I highly recommend him for any full-stack development role."
+    },
+    {
+      "name": "Praveen Kumar Saini",
+      "profile":"https://www.linkedin.com/in/praveen-me/",
+      "designation":"SDE 2 at Apollo 24|7",
+      "testimonial": "I had the pleasure of working with Abhishek. Abhishek has demonstrated exceptional expertise in React, Node, Express, and MongoDB, consistently delivering high-quality work. What truly sets Abhishek apart is his collaborative and resourceful nature. He excels in team settings, always ready to assist and share knowledge, fostering a positive and productive work environment. His ability to troubleshoot and find solutions quickly has been invaluable to our projects. Abhishek is not only technically proficient but also a great team player who elevates the performance of those around him. I highly recommend Abhishek for any team seeking a skilled and cooperative engineer."
+    }
+  ]
+  

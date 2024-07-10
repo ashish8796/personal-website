@@ -50,7 +50,7 @@ const Contact = () => {
     let  template_params= {
       'user_name': userName,
       'user_email': userEmail,
-      'to_name': 'Abhishek Singh Rathore',
+      'to_name': 'Ashish Kumar Saini',
       'message': message
     }
 
@@ -105,9 +105,9 @@ const Contact = () => {
    <a href={contacts?.linkedin} target="_blank">
     <FaLinkedin className="social-icons"/>
    </a>
-   <a href={contacts?.x} target="_blank">
+   {/* <a href={contacts?.x} target="_blank">
     <FaSquareXTwitter className="social-icons" />
-   </a>
+   </a> */}
    <a href={contacts?.whatsapp} target="_blank">
    <FaSquareWhatsapp className="social-icons" />
    </a>
@@ -121,12 +121,12 @@ const Contact = () => {
    <nav>
     <a href={contacts?.email} className="hide-large">
       <button className="contact-button hide-large">
-       Mail Me: abhishek.990914@gmail.com  
+       Mail Me: ashishsaini.ak@gmail.com 
       </button>
     </a>
     <a href={contacts?.phone} className="hide-large" >
       <button className="contact-button">
-      Call Me: +91-9389732668
+      Call Me: +91-7500762013
       </button>
     </a>
   
@@ -147,12 +147,12 @@ const Contact = () => {
    <h3>Want To Know More !</h3>
 
    <nav>
-    <a href="/documents/Abhishek-Singh-Rathore-Resume.pdf" download={true}>
+    <a href="/documents/Ashish_Kumar_Saini_Resume.pdf" download={true}>
       <button className="contact-button">
         Download Resume
       </button>
     </a>
-    <a href="/documents/Abhishek-Singh-Rathore-Resume.pdf" target="_blank">
+    <a href="/documents/Ashish_Kumar_Saini_Resume.pdf" target="_blank">
       <button className="contact-button">
         View Resume
       </button>

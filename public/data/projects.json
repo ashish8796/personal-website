@@ -2,17 +2,47 @@
   {
     "id": 1,
     "title": "Medica",
-    "category": "Web Design",
+    "category": "Web Development",
     "image": "images/medica.jpg",
     "url": "https://medica.ashishkumarsaini.com",
-    "github_repo_url": "https://github.com/ashish8796/medica"
+    "github_repo_url": "https://github.com/ashish8796/medica",
+    "skills": ["React", "Next", "Tailwind CSS", "Typescript", "Appwrite"],
+    "description": [
+      {
+        "title": "Introduction",
+        "points": [
+          "An app that allows patients to book doctor appointments easily and includes an appointment management dashboard with all necessary functionalities for doctors and administrators."
+        ]
+      },
+      {
+        "title": "Features",
+        "points": [
+          "User Registration: A user can register multiple patients.",
+          "Appointment Creation: A patient can create multiple appointments.",
+          "Admin Dashboard: Admins can view all appointments and their statuses. They can schedule or cancel appointments through the dashboard. Admin login requires a passkey: 123456."
+        ]
+      },
+      {
+        "title": "Monitoring",
+        "points": [
+          "This app uses Sentry for monitoring and error tracking. Sentry integration ensures that we can catch and fix errors quickly, providing a better user experience."
+        ]
+      }
+    ]
   },
   {
     "id": 2,
     "title": "Memory Game",
-    "category": "Web Design",
+    "category": "Web Development",
     "image": "images/game.jpg",
     "url": "https://memory-game-react-app-ashish8796.vercel.app/",
-    "github_repo_url": "https://github.com/ashish8796/memory-game"
+    "github_repo_url": "https://github.com/ashish8796/memory-game",
+    "skills": ["React", "Css", "Typescript"],
+    "description": [{
+      "title": "Introduction",
+      "points": [
+        "A memory game built with React and TypeScript."
+      ]
+    }]
   }
 ]

@@ -1,32 +1,36 @@
-import  { useState, useEffect } from 'react';
-import { FaRegEye } from 'react-icons/fa';
+import { useState, useEffect } from "react";
+import { FaRegEye } from "react-icons/fa";
 import { FaEye } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { VscGithub } from "react-icons/vsc";
-
+import ProjectModal from "../../components/ProjectModal";
 
 const Portfolio = () => {
   const [projects, setProjects] = useState([]);
+  const [isOpen, setIsOpen] = useState(false);
   const [filteredProjects, setFilteredProjects] = useState([]);
+  const [project, setProject] = useState({});
 
-  const [selectedCategory, setSelectedCategory] = useState('All');
+  const [selectedCategory, setSelectedCategory] = useState("All");
 
   useEffect(() => {
-    fetch('data/projects.json')
-      .then(response => response.json())
-      .then(data => {
+    fetch("data/projects.json")
+      .then((response) => response.json())
+      .then((data) => {
         setProjects(data);
         setFilteredProjects(data);
       })
-      .catch(error => console.error('Error loading project data:', error));
+      .catch((error) => console.error("Error loading project data:", error));
   }, []);
 
   const handleFilterClick = (category) => {
     setSelectedCategory(category);
-    if (category === 'All') {
+    if (category === "All") {
       setFilteredProjects(projects);
     } else {
-      const filtered = projects.filter(project => project.category === category);
+      const filtered = projects.filter(
+        (project) => project.category === category
+      );
       setFilteredProjects(filtered);
     }
   };
@@ -38,11 +42,10 @@ const Portfolio = () => {
       </header>
 
       <ul className="filter-list">
-        {
-        ['All', 'Web Design', "API", 'Web Development'].map(category => (
+        {["All", "Web Development", "API"].map((category) => (
           <li className="filter-item" key={category}>
             <button
-              className={category === selectedCategory ? 'active' : ''}
+              className={category === selectedCategory ? "active" : ""}
               onClick={() => handleFilterClick(category)}
               data-filter-btn
             >
@@ -54,33 +57,28 @@ const Portfolio = () => {
 
       <section className="projects">
         <ul className="project-list">
-          {filteredProjects?.map(project => (
+          {filteredProjects?.map((project) => (
             <li
-              className="project-item active"
+              className="project-item active cursor-pointer"
               data-filter-item
               data-category={project.category}
               key={project.id}
+              onClick={() => {
+                setProject(project);
+                setIsOpen(true);
+              }}
             >
-              <a href="#">
-                <figure className="project-img">
-                  <div className="project-item-icon-box">
-                    <a href={project.github_repo_url} target='_blank'>
-                    <FaGithub/>
-                    </a>
-                    <a href={project.url} target='_blank' >
-                    <FaRegEye />
-                    </a>
-                  </div>
-
-                  <img src={project.image} alt={project.title} loading="lazy" />
-                </figure>
-                <h3 className="project-title">{project.title}</h3>
-                <p className="project-category">{project.category}</p>
-              </a>
+              <figure className="project-img">
+                <img src={project.image} alt={project.title} loading="lazy" />
+              </figure>
+              <h3 className="project-title">{project.title}</h3>
+              <p className="project-category">{project.category}</p>
             </li>
           ))}
         </ul>
       </section>
+
+      {isOpen && <ProjectModal project={project} setIsModalOpen={setIsOpen} />}
     </section>
   );
 };

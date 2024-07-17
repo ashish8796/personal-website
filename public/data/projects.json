@@ -1,51 +1,18 @@
 [
-    {
-      "id": 1,
-      "title": "Food Galore",
-      "category": "Web Design",
-      "image": "images/Food-Galore.png",
-      "url": "https://abhishek-s-rathore.github.io/Food-Galore/index.html",
-      "github_repo_url": "https://github.com/abhishek-s-rathore/Food-Galore"
-    },
-    {
-      "id": 2,
-      "title": "Mini Ride",
-      "category": "Web Design",
-      "image": "images/Mini-Ride.png",
-      "url": "https://abhishek-s-rathore.github.io/Mini-Ride/index.html",
-      "github_repo_url": "https://github.com/abhishek-s-rathore/Mini-Ride"
-    },
-    {
-      "id": 3,
-      "title": "Community API",
-      "category": "API",
-      "image": "images/Community-API.png",
-      "url": "https://github.com/abhishek-s-rathore/Community-API/blob/main/README.md",
-      "github_repo_url":   "https://github.com/abhishek-s-rathore/Community-API"
-    },
-    {
-      "id": 4,
-      "title": "Conduit API",
-      "category": "API",
-      "image": "images/Conduit-API.png",
-      "url": "https://github.com/abhishek-s-rathore/Conduit-API/blob/main/README.md",
-      "github_repo_url" :"https://github.com/abhishek-s-rathore/Conduit-API"
-    },
-    {
-      "id": 5,
-      "title": "Gemini",
-      "category": "Web Development",
-      "image": "images/Gemini.png",
-      "url": "https://github.com/abhishek-s-rathore/Gemini/blob/main/README.md",
-      "github_repo_url" :"https://github.com/abhishek-s-rathore/Gemini"
-    },
-    {
-      "id": 6,
-      "title": "Stream Sync",
-      "category": "Web Development",
-      "image": "images/Stream-Sync.png",
-      "url": "https://github.com/abhishek-s-rathore/StreamSync/blob/main/README.md",
-      "github_repo_url" :"https://github.com/abhishek-s-rathore/StreamSync"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "Medica",
+    "category": "Web Design",
+    "image": "images/medica.jpg",
+    "url": "https://medica.ashishkumarsaini.com",
+    "github_repo_url": "https://github.com/ashish8796/medica"
+  },
+  {
+    "id": 2,
+    "title": "Memory Game",
+    "category": "Web Design",
+    "image": "images/game.jpg",
+    "url": "https://memory-game-react-app-ashish8796.vercel.app/",
+    "github_repo_url": "https://github.com/ashish8796/memory-game"
+  }
+]

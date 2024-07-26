@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { FaGithub, FaRegEye } from "react-icons/fa";
 
-const ProjectModal = ({ project, setIsModalOpen, children }) => {
-  const { title, image, url, github_repo_url, description, skills } = project;
+const ProjectModal = ({ project, setIsModalOpen }) => {
+  const { title, url, github_repo_url, description, skills } = project;
 
   console.log({ project });
 

@@ -1,8 +1,4 @@
 import { useState, useEffect } from "react";
-import { FaRegEye } from "react-icons/fa";
-import { FaEye } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { VscGithub } from "react-icons/vsc";
 import ProjectModal from "../../components/ProjectModal";
 
 const Portfolio = () => {

@@ -32,17 +32,55 @@
   },
   {
     "id": 2,
+    "title": "PicSaasAI",
+    "category": "Web Development",
+    "image": "images/picSaasAI.jpg",
+    "url": "https://picsaasai.ashishkumarsaini.com",
+    "github_repo_url": "https://github.com/ashish8796/pic-saas-ai",
+    "skills": [
+      "React",
+      "Next",
+      "Tailwind CSS",
+      "Typescript",
+      "MongoDB",
+      "Clerk",
+      "Cloudinary",
+      "Razorpay"
+    ],
+    "description": [
+      {
+        "title": "Introduction",
+        "points": [
+          "PicSaasAI is an image transformation web app that leverages the power of AI to perform various image transformations. Whether you need to restore old photos, remove unwanted objects, or change the background, PicSaasAI has got you covered."
+        ]
+      },
+      {
+        "title": "Features",
+        "points": [
+          "Image Restore: Restore distorted or damaged images.",
+          "Generative Fill: Generate images in different aspect ratios.",
+          "Object Remove: Remove unwanted objects from images.",
+          "Object Recolor: Recolor specific objects within an image.",
+          "Background Remove: Remove the background from images.",
+          "Intelligent Image Search: Search for images intelligently on the home page.",
+          "Credit System: Users get free credits for transforming their images and can purchase additional credits through the credits page. The app integrates with Razorpay for seamless payment processing."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
     "title": "Memory Game",
     "category": "Web Development",
     "image": "images/game.jpg",
     "url": "https://memory-game-react-app-ashish8796.vercel.app/",
     "github_repo_url": "https://github.com/ashish8796/memory-game",
     "skills": ["React", "Css", "Typescript"],
-    "description": [{
-      "title": "Introduction",
-      "points": [
-        "A memory game built with React and TypeScript."
-      ]
-    }]
+    "description": [
+      {
+        "title": "Introduction",
+        "points": ["A memory game built with React and TypeScript."]
+      }
+    ]
   }
 ]

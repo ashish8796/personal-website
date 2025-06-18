@@ -31,14 +31,19 @@ export default function Skills() {
     { name: "React Native", Icon: TbBrandReactNative },
     { name: "Node Js", Icon: FaNodeJs },
     { name: "Express Js", Icon: SiExpress },
-    { name: "Java", Icon: FaJava },
-    { name: "Sprint Boot", Icon: SiSpringboot },
+    // { name: "Java", Icon: FaJava },
+    // { name: "Sprint Boot", Icon: SiSpringboot },
     { name: "Mongoose", Icon: SiMongoose },
     { name: "MongoDB", Icon: SiMongodb },
     { name: "SQL", Icon: TbSql },
     { name: "PostgreSQL", Icon: SiPostgresql },
     { name: "AWS", Icon: FaAws },
     { name: "Git", Icon: FaGit },
+    { name: "WebSocket", Icon: null },
+    { name: "LLM Integration", Icon: null },
+    { name: "GPT Models", Icon: null },
+    { name: "NLP", Icon: null },
+    { name: "Vector Databases", Icon: null },
   ];
 
   return (
@@ -54,9 +59,11 @@ export default function Skills() {
             <p className="text-white xl:text-xl md:text-xl text-[14px]">
               {skill.name}
             </p>
-            <div>
-              <skill.Icon className="xl:text-3xl text-xl" />
-            </div>
+            {skill.Icon && (
+              <div>
+                <skill.Icon className="xl:text-3xl text-xl" />
+              </div>
+            )}
           </div>
         ))}
       </div>

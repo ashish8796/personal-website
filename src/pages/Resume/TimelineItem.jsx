@@ -1,3 +1,5 @@
+import { getBoldHeading } from "./helper.jsx";
+
 const TimelineItem = ({ title, date, description, links }) => {
   return (
     <li className="timeline-item">
@@ -5,14 +7,14 @@ const TimelineItem = ({ title, date, description, links }) => {
       <span>{date}</span>
 
       {typeof description === "string" ? (
-        <p className="timeline-text">{description}</p>
+        <p className="timeline-text">{getBoldHeading(description)}</p>
       ) : (
         <ol>
           {description.map((item) => {
             return (
               <>
                 <li key={item} className="timeline-bullet">
-                  {item}
+                  {getBoldHeading(item)}
                 </li>
               </>
             );
